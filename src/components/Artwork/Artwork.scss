@@ -1,0 +1,64 @@
+.artwork {
+  width: 280px;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e1e1;
+
+  &_disabled {
+    opacity: 0.5;
+  }
+
+  &__image {
+    width: 280px;
+    height: 160px;
+  }
+
+  &__content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &__soldout {
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      font-size: 16px;
+      line-height: 150%;
+      font-weight: bold;
+    }
+
+    &__title {
+      font-size: 18px;
+      line-height: 150%;
+      color: #343030;
+    }
+
+    &__control {
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+
+      &__price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 150%;
+
+        &__initial {
+          font-size: 14px;
+          text-decoration: line-through;
+          color: #a0a0a0;
+        }
+
+        &__final {
+          font-weight: bold;
+          font-size: 16px;
+          color: #343030;
+        }
+      }
+    }
+  }
+}

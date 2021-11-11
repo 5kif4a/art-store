@@ -1,0 +1,19 @@
+.header {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.header__content {
+  margin: 0 auto;
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+}

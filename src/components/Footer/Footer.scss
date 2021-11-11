@@ -1,0 +1,36 @@
+.footer {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  background: #eceaea;
+}
+
+.footer__content {
+  margin: 0 auto;
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+    & p {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      line-height: 150%;
+
+      & span {
+        margin-left: 8px;
+      }
+    }
+  }
+}

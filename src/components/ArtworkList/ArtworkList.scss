@@ -1,0 +1,22 @@
+.artwork-list {
+  margin-top: 48px;
+  flex: 1 0 auto;
+}
+
+.artwork-list__content {
+  margin: 0 auto;
+  max-width: 1216px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #343030;
+  }
+
+  &__cards {
+    margin-top: 60px;
+    display: flex;
+    gap: 32px;
+  }
+}

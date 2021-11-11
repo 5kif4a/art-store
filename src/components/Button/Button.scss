@@ -1,0 +1,28 @@
+.button {
+  cursor: pointer;
+  width: 118px;
+  height: 48px;
+  background: #403432;
+  color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  transition: 0.3s all ease-in-out;
+  border: none;
+  outline: 0;
+
+  &:hover {
+    background: #776763;
+  }
+
+  &_disabled {
+    background: #c1b4b1;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
